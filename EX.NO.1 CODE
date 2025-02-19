@@ -1,0 +1,18 @@
+# Define two vectors with 9 elements each
+vector1 <- c(1, 2, 3, 4, 5, 6, 7, 8, 9)
+vector2 <- c(10, 11, 12, 13, 14, 15, 16, 17, 18)
+
+# Create a 3D array with two 3x3 matrices
+array_3d <- array(c(vector1, vector2), dim = c(3, 3, 2))
+
+# Print the entire array
+print("The 3D array:")
+print(array_3d)
+
+# Extract and print the second row of the second matrix
+print("Second row of the second matrix:")
+print(array_3d[2, , 2])
+
+# Extract and print the element in the 3rd row and 3rd column of the 1st matrix
+print("Element in the 3rd row and 3rd column of the 1st matrix:")
+print(array_3d[3, 3, 1])
